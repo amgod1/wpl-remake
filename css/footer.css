@@ -1,0 +1,15 @@
+.footer-items {
+	display: flex;
+	justify-content: space-between;
+	max-width: 300px;
+	margin: 25px auto;
+}
+
+.footer-img {
+	width: 40px;
+	transition: transform 0.25s ease;
+}
+
+.footer-img:hover {
+	transform: translateY(-5px);
+}
